@@ -21,7 +21,6 @@
 
 #inner {
   width: 50%;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -37,6 +36,13 @@ h1 span:nth-child(1) {
 h1 span:nth-child(2),
 h1 span:nth-child(3) {
   font-weight: 100;
+}
+
+.release-text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
 }
 
 .header h1::after {

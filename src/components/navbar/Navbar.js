@@ -43,7 +43,7 @@ const Navbar = () => {
               <a href="#cats" class="navbar__links" id="cat-page"><i class="fas fa-solid fa-cat"></i></a>
           </li> */}
           <li class="navbar__btn">
-              <a href="https://discord.gg/dQZ64mGgbP/" target="_blank" class="button" id="temp-page">Join our Discord!</a>
+              <a href="https://discord.com/invite/dQZ64mGgbP" target="_blank" class="button" id="temp-page">Join our Discord!</a>
           </li>
       </ul>
       </div>

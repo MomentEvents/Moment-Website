@@ -17,25 +17,26 @@ const Features = () => {
     });
   }, []);
   return (
-    <div>
+    <div className="features-background">
       <section id="features">
-        <div className="container features">
-          <div className="features-content">
-            <div className="features-left1" data-aos="fade-right">
-              <img src={phoneFeatures} alt="phone" />
-            </div>
-            <div className="features-right1" data-aos="fade-left">
-              {FeatureListTop.map((feature) => (
-                <Feature
-                  key={feature.id}
-                  icon={feature.icon}
-                  heading={feature.heading}
-                  text={feature.text}
-                />
-              ))}
+        
+          <div className="container features">
+            <div className="features-content">
+              <div className="features-left1" data-aos="fade-right">
+                <img src={phoneFeatures} alt="phone" />
+              </div>
+              <div className="features-right1" data-aos="fade-left">
+                {FeatureListTop.map((feature) => (
+                  <Feature
+                    key={feature.id}
+                    icon={feature.icon}
+                    heading={feature.heading}
+                    text={feature.text}
+                  />
+                ))}
+              </div>
             </div>
           </div>
-        </div>
         <div className="container features">
           <div className="features-content">
             <div className="features-left2" data-aos="fade-right">
