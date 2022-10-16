@@ -1,7 +1,7 @@
 {
   "name": "kyle-website",
   "version": "0.1.0",
-  "homepage": "https://kyle1373.github.io/website",
+  "homepage": "https://MomentEvents.github.io/homepage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
