@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #444444;
+  background-color: #2f2b31;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
