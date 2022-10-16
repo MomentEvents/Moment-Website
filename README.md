@@ -1,4 +1,2 @@
-# website
-This repository contains my personal website. More to be filled in later.
-
-https://kyle1373.github.io/website/
+# Moment Website
+This repository contains the launch website for Moment, a university event app for students.
