@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #2f2b31;
+  background: radial-gradient(circle at center, rgb(96, 69, 119), rgb(57, 47, 66), rgb(0, 0, 0) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Phone-screen {
+  height:300px;
+}
+
+.Moment-logo {
+  width:400px;
+}
+
+.Subtitle-text {
+  font-family: 'Poppins';
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
