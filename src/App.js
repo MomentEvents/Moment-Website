@@ -1,19 +1,28 @@
-import logo from './assets/momentlogo.svg';
-import appscreen from './assets/momentmainpage.png'
-import './App.css';
+import "./App.css";
+import "./components";
+import Demo from "./components/demo/Demo.js";
+import { Navbar, Header, Features, Footer } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="Moment-logo" alt="Logo" />
-        <p className="Subtitle-text">
-          An app for all kinds of communities.<br/>
-          Made by students. For students.
-          <img src={appscreen} className="Phone-screen" alt="Screen" />
-        </p>
+    <>
+      <header className="navbar-bg">
+        <Navbar />
       </header>
-    </div>
+      <header className="navbar-bg">
+        <header className="header-bg">
+          <Header />
+        </header>
+      </header>
+      <div className="features-background">
+        <Features />
+        {/* {/* <Download /> */}
+        {/* <Subscribe /> */}
+        {/* <Faq /> */}
+        <Demo />
+      </div>
+      <Footer />
+    </>
   );
 }
 
