@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./Header.css";
 // import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import phoneHeader from "../../assets/phone-header-bg.png";
 // import { BsMouse } from "react-icons/bs";
 
 import AOS from "aos";
@@ -21,12 +20,12 @@ const Header = () => {
           <div className="header-left" data-aos="fade-right">
             <h1>
               <span className="main-text">Finding events is hard</span>
-              <span className="subtitle-text">We made an app to make it easier</span>
+              <span className="subtitle-text">Let's make it easier</span>
               {/* <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span> */}
             </h1>
 
             <div className="release-text">
-              Final release coming very soon <br></br> to UIUC and UCSD!
+              Final app release coming very <br></br> soon to UIUC and UCSD!
             </div>
             {/* <div className="header-cta">
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"} />
