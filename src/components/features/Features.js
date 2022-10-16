@@ -19,7 +19,6 @@ const Features = () => {
   return (
     <div className="features-background">
       <section id="features">
-        
           <div className="container features">
             <div className="features-content">
               <div className="features-left1" data-aos="fade-right">

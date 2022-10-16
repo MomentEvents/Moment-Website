@@ -5,6 +5,7 @@ import { SiGotomeeting } from "react-icons/si";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
 import logo from "../../assets/momentlogo.svg"
+import discord from "../../assets/discordicon.svg"
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
               <a href="#cats" class="navbar__links" id="cat-page"><i class="fas fa-solid fa-cat"></i></a>
           </li> */}
           <li class="navbar__btn">
-              <a href="https://discord.com/invite/dQZ64mGgbP" target="_blank" class="button" id="temp-page">Join our Discord!</a>
+              <a href="https://discord.com/invite/dQZ64mGgbP" target="_blank" class="button" id="temp-page"><img src={discord} className="discord-icon" alt="discord" />Join our Discord!</a>
           </li>
       </ul>
       </div>

@@ -74,6 +74,7 @@
   justify-content: center;
   text-decoration: none;
   padding: 10px 20px;
+  margin-left:20px;
   /** background-size:1px 200px; /** added*/
   height: 100%;
   width: 100%;
@@ -112,4 +113,9 @@
 .navbar__links:hover {
   color: rgb(149, 68, 255);
   transition: all 0.5s ease;
+}
+
+.discord-icon {
+  height: 30px;
+  margin-right: 10px;
 }
