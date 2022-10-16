@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.f4fa0a4f.css",
-    "main.js": "/homepage/static/js/main.de480810.js",
-    "static/js/787.f1e79477.chunk.js": "/homepage/static/js/787.f1e79477.chunk.js",
-    "static/media/logo.svg": "/homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/homepage/static/css/main.8f195688.css",
+    "main.js": "/homepage/static/js/main.0098637c.js",
+    "static/media/EventScreen1and2.png": "/homepage/static/media/EventScreen1and2.e1298cf4faf1b5906302.png",
+    "static/media/momentbackground.png": "/homepage/static/media/momentbackground.9180afabded3d0afe495.png",
+    "static/media/PersonalCalendar.png": "/homepage/static/media/PersonalCalendar.82b3c8b6acc3a5448d7d.png",
+    "static/media/CreateEvent1and2.png": "/homepage/static/media/CreateEvent1and2.9f3ccb832d72fdd18333.png",
+    "static/media/momentlogo.svg": "/homepage/static/media/momentlogo.80f36e212a2327813be19dad769083ec.svg",
+    "static/media/SearchEvent.png": "/homepage/static/media/SearchEvent.565be11850de7ae575b1.png",
+    "static/media/SelectTags.png": "/homepage/static/media/SelectTags.1e2da8de1ae863534216.png",
+    "static/media/discordicon.svg": "/homepage/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/homepage/index.html",
-    "main.f4fa0a4f.css.map": "/homepage/static/css/main.f4fa0a4f.css.map",
-    "main.de480810.js.map": "/homepage/static/js/main.de480810.js.map",
-    "787.f1e79477.chunk.js.map": "/homepage/static/js/787.f1e79477.chunk.js.map"
+    "main.8f195688.css.map": "/homepage/static/css/main.8f195688.css.map",
+    "main.0098637c.js.map": "/homepage/static/js/main.0098637c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4fa0a4f.css",
-    "static/js/main.de480810.js"
+    "static/css/main.8f195688.css",
+    "static/js/main.0098637c.js"
   ]
 }
