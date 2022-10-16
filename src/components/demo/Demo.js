@@ -33,7 +33,7 @@ const Demo = () => {
             </div>
             <div className="demo-right" data-aos="fade-left">
                 <h1>Tag filtering</h1>
-                <img src={selectTags} alt="phone" />
+                <img src={selectTags} alt="selectTags" />
                 <h2>Customize your home page by inputting what events YOU want to see.</h2>
             </div>
           </div>
