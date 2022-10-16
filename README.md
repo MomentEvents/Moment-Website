@@ -2,4 +2,4 @@
 
 ## 🌟 Welcome to Moment 📷
 
-Moment is an upcoming mobile application aimed at uniting people through events. This is the launch website for the application. You can view it at https://www.momentevents.github.io/homepage
+Moment is an upcoming mobile application aimed at uniting people through events. This is the launch website for the application. You can view it at https://momentevents.github.io/homepage/
