@@ -1,14 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import { SiGotomeeting } from "react-icons/si";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import logo from "../../assets/momentlogo.svg"
-import discord from "../../assets/discordicon.svg"
+import logo from "../../assets/momentlogo.svg";
+import discord from "../../assets/discordicon.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -17,17 +30,17 @@ const Navbar = () => {
   return (
     // <!-- Navbar Section -->
     <nav class="navbar">
-      <div class="navbar__container"> 
+      <div class="navbar__container">
         <div className="logo">
           <img src={logo} className="logo-text" alt="Logo" />
-      </div>
-          {/* <a href="#home" id="navbar__logo">CHIRAG</a> */}
-      <div class="navbar__toggle" id="mobile-menu">
+        </div>
+        {/* <a href="#home" id="navbar__logo">CHIRAG</a> */}
+        <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
-      </div>
-      <ul class="navbar__menu">
+        </div>
+        <ul class="navbar__menu">
           {/* <li class="navbar__item">
               <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
@@ -43,10 +56,27 @@ const Navbar = () => {
           <li class="navbar__item">
               <a href="#cats" class="navbar__links" id="cat-page"><i class="fas fa-solid fa-cat"></i></a>
           </li> */}
-          <li class="navbar__btn">
-              <a href="https://discord.com/invite/dQZ64mGgbP" target="_blank" class="button" id="temp-page"><img src={discord} className="discord-icon" alt="discord" />Join our Discord!</a>
-          </li>
-      </ul>
+          {isMobile ? <li class="navbar__btn">
+            <a
+              href="https://discord.com/invite/dQZ64mGgbP"
+              target="_blank"
+              class="button"
+              id="temp-page"
+            >
+              <img src={discord} className="discord-icon-mobile" alt="discord" />
+            </a>
+          </li> : <li class="navbar__btn">
+            <a
+              href="https://discord.com/invite/dQZ64mGgbP"
+              target="_blank"
+              class="button"
+              id="temp-page"
+            >
+              <img src={discord} className="discord-icon" alt="discord" />
+              Join our Discord!
+            </a>
+          </li>}
+        </ul>
       </div>
     </nav>
     // <nav className="navbar container">
