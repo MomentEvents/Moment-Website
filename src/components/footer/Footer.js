@@ -43,18 +43,21 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <div className="footer-contact u-text-small">
             <div>
-              <FaMapMarkerAlt /> &nbsp; UIUC
+              <FaMapMarkerAlt /> &nbsp; UCSD & UIUC
             </div>
             <div>
-              <FaPhoneAlt /> &nbsp; (217)-979-7479
+              <FaPhoneAlt /> &nbsp; (217) 979-7479
             </div>
             <div>
               <FaEnvelope />&nbsp;<a href='mailto:chiragr2@illinois.edu'>&nbsp; chiragr2@illinois.edu</a>
             </div>
+            <div>
+              <FaEnvelope />&nbsp;<a href='mailto:kwade@ucsd.edu'>&nbsp; kwade@ucsd.edu</a>
+            </div>
           </div>
         </div>
         <div className="footer-box">
-          <p className="u-text-small"> Coded by chirag5241, govgovnahr </p>
+          <p className="u-text-small"> </p>
         </div>
       </div>
     </section>

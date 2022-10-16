@@ -20,8 +20,8 @@ const Header = () => {
         <div className="aligning-contents-center">
           <div className="header-left" data-aos="fade-right">
             <h1>
-              <span>Finding events is hard</span>
-              <span>Let's make it easier</span>
+              <span className="main-text">Finding events is hard</span>
+              <span className="subtitle-text">We made an app to make it easier</span>
               {/* <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span> */}
             </h1>
 

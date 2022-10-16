@@ -21,12 +21,12 @@ const Demo = () => {
           
           <div className="demo-content">
             <div className="demo-left" data-aos="fade-right">
-                <h1>Item 1</h1>
+                <h1>A personal calendar</h1>
               <img src={phoneFeatures} alt="phone" />
               <h2>Description</h2>
             </div>
             <div className="demo-middle" data-aos="fade-up">
-                <h1> Item 2</h1>
+                <h1> Search events</h1>
                 <img src={phoneFeatures} alt="phone" />
                 <h2>Description</h2>
             </div>
