@@ -151,4 +151,36 @@ h1 span:nth-child(3) {
     align-items: center;
     text-align: center;
   }
+
+  .discord-icon-mobile{
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left:20px;
+    /** background-size:1px 200px; /** added*/
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #8f09ee;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ae3cff 0%, #5900b9 99%, #4a0072 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b378f1, #6330a1 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff; 
+    transition-duration: 1s ;
+    /* transition-duration: background - color 0.5s ease; */
+    /* -webkit-transition: background 1s ease-out;  */
+  }
+  
+  
+  .button:hover {
+    color: rgb(217, 183, 255);
+  }
 }

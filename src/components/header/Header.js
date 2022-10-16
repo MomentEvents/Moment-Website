@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 // import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
+
+import discord from "../../assets/discordicon.svg";
 // import { BsMouse } from "react-icons/bs";
 
 import AOS from "aos";
@@ -13,6 +15,19 @@ const Header = () => {
       duration: 1000,
     });
   }, []);
+  const [width, setWidth] = useState(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
   return (
     <section id="header">
       <div className="container header">
@@ -27,6 +42,20 @@ const Header = () => {
             <div className="release-text">
               Final app release coming very <br></br> soon to UIUC and UCSD!
             </div>
+            <br></br>
+            {isMobile ? 
+                        <a
+                        href="https://discord.com/invite/dQZ64mGgbP"
+                        target="_blank"
+                        class="button"
+                        id="temp-page"
+                      >
+                        <img src={discord} className="discord-icon-mobile" alt="discord" />
+                        Join our discord!
+                      </a>
+                      : <></>
+            }
+
             {/* <div className="header-cta">
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"} />
             <Button text={"How It Works"} btnClass={"btn-light"} href={"#"} />

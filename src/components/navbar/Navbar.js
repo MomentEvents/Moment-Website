@@ -57,14 +57,7 @@ const Navbar = () => {
               <a href="#cats" class="navbar__links" id="cat-page"><i class="fas fa-solid fa-cat"></i></a>
           </li> */}
           {isMobile ? <li class="navbar__btn">
-            <a
-              href="https://discord.com/invite/dQZ64mGgbP"
-              target="_blank"
-              class="button"
-              id="temp-page"
-            >
-              <img src={discord} className="discord-icon-mobile" alt="discord" />
-            </a>
+          <></>
           </li> : <li class="navbar__btn">
             <a
               href="https://discord.com/invite/dQZ64mGgbP"
