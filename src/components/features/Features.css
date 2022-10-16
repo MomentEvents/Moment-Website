@@ -42,7 +42,8 @@ body {
   
 }
 .features-left1 img {
-  width: 55%;
+  width: 100%;
+  padding: 20px;
 }
 .features-right1 {
   flex: 1;
@@ -59,8 +60,8 @@ body {
   flex: 1;
 }
 .features-right2 img {
-  width: 55%;
-  text-align: center;
+  width: 100%;
+  padding: 20px;
 }
 
 
