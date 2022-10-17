@@ -21,12 +21,12 @@ const Header = () => {
           <div className="header-left" data-aos="fade-right">
             <h1>
               <span className="main-text">Finding events is hard</span>
-              <span className="subtitle-text">Let's make it easier</span>
+              <span className="subtitle-text">Let's make it easy</span>
               {/* <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span> */}
             </h1>
 
             <div className="release-text">
-              Mobile app release coming very <br></br> soon to UIUC and UCSD!
+              Mobile app release coming to UIUC and UCSD very soon!
             </div>
             {/* <div className="header-cta">
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"} />
