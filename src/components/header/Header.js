@@ -26,7 +26,7 @@ const Header = () => {
             </h1>
 
             <div className="release-text">
-              Final app release coming very <br></br> soon to UIUC and UCSD!
+              Mobile app release coming very <br></br> soon to UIUC and UCSD!
             </div>
             {/* <div className="header-cta">
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"} />
