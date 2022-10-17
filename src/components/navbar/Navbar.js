@@ -5,6 +5,7 @@ import { SiGotomeeting } from "react-icons/si";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
 import logo from "../../assets/momentlogo.svg";
+import logoO from "../../assets/cameraO.png";
 import discord from "../../assets/discordicon.svg";
 import "./Navbar.css";
 
@@ -32,7 +33,10 @@ const Navbar = () => {
     <nav class="navbar">
       <div class="navbar__container">
         <div className="logo">
-          <img src={logo} className="logo-text" alt="Logo" />
+          <div className="logo-text">
+            <strong>M</strong> <img src={logoO} className="logo-O" alt="Logo" /> <strong>MENT</strong>
+          </div>
+          {/* <img src={logo} className="logo-text" alt="Logo" /> */}
         </div>
         {/* <a href="#home" id="navbar__logo">CHIRAG</a> */}
         <div class="navbar__toggle" id="mobile-menu">
