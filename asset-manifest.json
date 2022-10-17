@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.f02adaf3.css",
-    "main.js": "/homepage/static/js/main.1e2ac5f2.js",
+    "main.css": "/homepage/static/css/main.ea42c80e.css",
+    "main.js": "/homepage/static/js/main.ad9a45f5.js",
     "static/media/EventScreen1and2.png": "/homepage/static/media/EventScreen1and2.e1298cf4faf1b5906302.png",
     "static/media/momentbackground.png": "/homepage/static/media/momentbackground.9180afabded3d0afe495.png",
     "static/media/PersonalCalendar.png": "/homepage/static/media/PersonalCalendar.82b3c8b6acc3a5448d7d.png",
@@ -11,11 +11,11 @@
     "static/media/SelectTags.png": "/homepage/static/media/SelectTags.1e2da8de1ae863534216.png",
     "static/media/discordicon.svg": "/homepage/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/homepage/index.html",
-    "main.f02adaf3.css.map": "/homepage/static/css/main.f02adaf3.css.map",
-    "main.1e2ac5f2.js.map": "/homepage/static/js/main.1e2ac5f2.js.map"
+    "main.ea42c80e.css.map": "/homepage/static/css/main.ea42c80e.css.map",
+    "main.ad9a45f5.js.map": "/homepage/static/js/main.ad9a45f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f02adaf3.css",
-    "static/js/main.1e2ac5f2.js"
+    "static/css/main.ea42c80e.css",
+    "static/js/main.ad9a45f5.js"
   ]
 }
