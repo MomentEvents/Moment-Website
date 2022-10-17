@@ -34,7 +34,7 @@ const Demo = () => {
             <div className="demo-right" data-aos="fade-left">
                 <h1>Personalization</h1>
                 <img src={selectTags} alt="selectTags" />
-                <h2>Customize your home page by specifying which tags match your interest.</h2>
+                <h2>Customize your home page by specifying which tags match your interests.</h2>
             </div>
           </div>
         </div>
