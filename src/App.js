@@ -2,6 +2,7 @@ import "./App.css";
 import "./components";
 import Demo from "./components/demo/Demo.js";
 import { Navbar, Header, Features, Footer } from "./components";
+import AnimatedArrow from "./components/AnimatedArrow/AnimatedArrow";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Header />
         </header>
       </header>
+      
       <div className="features-background">
         <Features />
         {/* {/* <Download /> */}

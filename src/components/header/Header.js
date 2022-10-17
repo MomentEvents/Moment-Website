@@ -3,6 +3,7 @@ import "./Header.css";
 // import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
 // import { BsMouse } from "react-icons/bs";
+import AnimatedArrow from "../AnimatedArrow/AnimatedArrow";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -32,6 +33,14 @@ const Header = () => {
             <Button text={"How It Works"} btnClass={"btn-light"} href={"#"} />
           </div> */}
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          {/* lol ^*/}
+      <AnimatedArrow></AnimatedArrow>
         </div>
         {/* <div className="header-right" data-aos="fade-left">
           <img src={phoneHeader} alt="phone" />

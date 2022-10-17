@@ -52,6 +52,14 @@ h1 span:nth-child(3) {
   color: #fff;
 }
 
+.scrolldown-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  vertical-align:bottom;
+}
+
 .header h1::after {
   content: "";
   position: absolute;
