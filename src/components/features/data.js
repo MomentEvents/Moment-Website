@@ -21,7 +21,7 @@ export const FeatureListBot = [
   {
     id: 3,
     icon: <MdConnectWithoutContact color="#FFFFFF" size={22} />,
-    heading: "Create events",
+    heading: "Create events for everyone",
     text: "Have a party you want to blast? Do you want to organize a casual lunch meetup? Anyone can create an event, whether big or small!",
   }
   
