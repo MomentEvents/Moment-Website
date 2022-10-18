@@ -29,7 +29,7 @@ const Demo = () => {
             <div className="demo-middle" data-aos="fade-up">
                 <h1>Search</h1>
                 <img src={searchEvent} alt="Search" />
-                <h2>Search for any upcoming events that are bound to happen.</h2>
+                <h2>Search for any upcoming event that is bound to happen.</h2>
             </div>
             <div className="demo-right" data-aos="fade-left">
                 <h1>Personalization</h1>
