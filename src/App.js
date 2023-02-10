@@ -3,8 +3,13 @@ import "./components";
 import Demo from "./components/demo/Demo.js";
 import { Navbar, Header, Features, Footer } from "./components";
 import AnimatedArrow from "./components/AnimatedArrow/AnimatedArrow";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom"
 
 function App() {
+  
   return (
     <>
       <header className="navbar-bg">
