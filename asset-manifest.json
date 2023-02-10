@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cfe737c.css",
-    "main.js": "/static/js/main.c3b9ae5e.js",
-    "static/media/cameraO.png": "/static/media/cameraO.c84d3c47ad7b22552269.png",
-    "static/media/EventScreen1and2.png": "/static/media/EventScreen1and2.e1298cf4faf1b5906302.png",
-    "static/media/momentbackground.png": "/static/media/momentbackground.9180afabded3d0afe495.png",
-    "static/media/PersonalCalendar.png": "/static/media/PersonalCalendar.82b3c8b6acc3a5448d7d.png",
-    "static/media/CreateEvent1and2.png": "/static/media/CreateEvent1and2.9f3ccb832d72fdd18333.png",
-    "static/media/momentlogo.svg": "/static/media/momentlogo.80f36e212a2327813be19dad769083ec.svg",
-    "static/media/SearchEvent.png": "/static/media/SearchEvent.565be11850de7ae575b1.png",
-    "static/media/SelectTags.png": "/static/media/SelectTags.1e2da8de1ae863534216.png",
-    "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
-    "index.html": "/index.html",
-    "main.0cfe737c.css.map": "/static/css/main.0cfe737c.css.map",
-    "main.c3b9ae5e.js.map": "/static/js/main.c3b9ae5e.js.map"
+    "main.css": "/homepage/static/css/main.32fb1f9d.css",
+    "main.js": "/homepage/static/js/main.80a7aa99.js",
+    "static/media/cameraO.png": "/homepage/static/media/cameraO.c84d3c47ad7b22552269.png",
+    "static/media/EventScreen1and2.png": "/homepage/static/media/EventScreen1and2.e1298cf4faf1b5906302.png",
+    "static/media/momentbackground.png": "/homepage/static/media/momentbackground.9180afabded3d0afe495.png",
+    "static/media/PersonalCalendar.png": "/homepage/static/media/PersonalCalendar.82b3c8b6acc3a5448d7d.png",
+    "static/media/CreateEvent1and2.png": "/homepage/static/media/CreateEvent1and2.9f3ccb832d72fdd18333.png",
+    "static/media/momentlogo.svg": "/homepage/static/media/momentlogo.80f36e212a2327813be19dad769083ec.svg",
+    "static/media/SearchEvent.png": "/homepage/static/media/SearchEvent.565be11850de7ae575b1.png",
+    "static/media/SelectTags.png": "/homepage/static/media/SelectTags.1e2da8de1ae863534216.png",
+    "static/media/discordicon.svg": "/homepage/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
+    "index.html": "/homepage/index.html",
+    "main.32fb1f9d.css.map": "/homepage/static/css/main.32fb1f9d.css.map",
+    "main.80a7aa99.js.map": "/homepage/static/js/main.80a7aa99.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cfe737c.css",
-    "static/js/main.c3b9ae5e.js"
+    "static/css/main.32fb1f9d.css",
+    "static/js/main.80a7aa99.js"
   ]
 }
