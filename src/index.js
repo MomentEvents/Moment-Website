@@ -14,36 +14,34 @@ import Contact from "./pages/contact/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/ios",
-    element: <IOSDownload/>,
-  },
-  {
-    path: "/android",
-    element: <AndroidDownload/>,
-  },
-  {
-    path: "/contact",
-    element: <Contact/>,
-  },
-  {
-    path: "/privacy",
-    element: <PrivacyPolicy/>,
-  },
-  {
-    path: "/terms",
-    element: <TermsOfService/>,
-  },
-  {
-    path: "/404",
-    element: <NotFound/>,
-  },
-  {
-    path: "*",
-    element: <NotFoundRedirect/>,
+    element: <Home />,
+    children: [
+      {
+        path: "ios",
+        element: <IOSDownload />,
+      },
+      {
+        path: "android",
+        element: <AndroidDownload />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "terms",
+        element: <TermsOfService />,
+      },
+      {
+        path: "privacy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "404",
+        element: <NotFound />,
+      },
+    ],
+    errorElement: <NotFound />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
