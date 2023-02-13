@@ -1,23 +1,55 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./pages/home/Home";
+import PrivacyPolicy from "./pages/privacy policy/PrivacyPolicy";
+import TermsOfService from "./pages/terms of service/TermsOfService";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import NotFoundRedirect from "./pages/404/NotFoundRedirect";
+import NotFound from "./pages/404/NotFound";
+import IOSDownload from "./pages/ios download/IOSDownload";
+import AndroidDownload from "./pages/android download/AndroidDownload";
+import Contact from "./pages/contact/Contact";
 // import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Home/>,
+  },
+  {
+    path: "/ios",
+    element: <IOSDownload/>,
+  },
+  {
+    path: "/android",
+    element: <AndroidDownload/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
+  },
+  {
+    path: "/privacy",
+    element: <PrivacyPolicy/>,
+  },
+  {
+    path: "/terms",
+    element: <TermsOfService/>,
+  },
+  {
+    path: "/404",
+    element: <NotFound/>,
+  },
+  {
+    path: "*",
+    element: <NotFoundRedirect/>,
   },
 ]);
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

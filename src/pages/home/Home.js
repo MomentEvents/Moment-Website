@@ -1,14 +1,13 @@
-import "./App.css";
-import "./components";
-import Demo from "./components/demo/Demo.js";
-import { Navbar, Header, Features, Footer } from "./components";
-import AnimatedArrow from "./components/AnimatedArrow/AnimatedArrow";
+import "./Home.css";
+import "./../../components";
+import Demo from "./../../components/demo/Demo.js";
+import { Navbar, Header, Features, Footer } from "./../../components";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
 
-function App() {
+function Home() {
   
   return (
     <>
@@ -33,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

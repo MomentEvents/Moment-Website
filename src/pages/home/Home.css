@@ -49,7 +49,7 @@ html body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image:url(./assets/momentbackground.png);
+  background-image:url(./../../assets/momentbackground.png);
   background-size: cover;
   opacity:0.08;
   background-color: #141B4199;
