@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./pages/home/Home";
 import PrivacyPolicy from "./pages/privacy policy/PrivacyPolicy";
 import TermsOfService from "./pages/terms of service/TermsOfService";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider, HashRouter } from "react-router-dom";
 import NotFoundRedirect from "./pages/404/NotFoundRedirect";
 import NotFound from "./pages/404/NotFound";
 import IOSDownload from "./pages/ios download/IOSDownload";
@@ -12,7 +12,7 @@ import AndroidDownload from "./pages/android download/AndroidDownload";
 import Contact from "./pages/contact/Contact";
 // import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home/>,
