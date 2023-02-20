@@ -1,11 +1,12 @@
 import "./Home.css";
-import "./../../components";
-import Demo from "./../../components/demo/Demo.js";
-import { Navbar, Header, Features, Footer } from "./../../components";
+import "../../components";
+import Demo from "../../components/demo/Demo.js";
+import { Navbar, Header, Features, Footer, Download } from "../../components";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
+import React from "react";
 
 function Home() {
   
@@ -22,7 +23,7 @@ function Home() {
       
       <div className="features-background">
         <Features />
-        {/* {/* <Download /> */}
+        {/* <Download /> */}
         {/* <Subscribe /> */}
         {/* <Faq /> */}
         <Demo />

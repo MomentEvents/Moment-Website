@@ -80,6 +80,28 @@ h1 span:nth-child(3) {
   width: 90%;
 }
 
+.header-cta {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-download-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-download-buttons a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header-arrow {
+  margin-top: 40px;
+}
+
+
 .floating-icon {
   background-color: var(--light-blue);
   width: 5rem;

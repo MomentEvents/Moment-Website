@@ -45,14 +45,11 @@ const Footer = () => {
             <div>
               <FaMapMarkerAlt /> &nbsp; UCSD & UIUC
             </div>
-            <div>
+            {/* <div>
               <FaPhoneAlt /> &nbsp; (217) 979-7479
-            </div>
+            </div> */}
             <div>
-              <FaEnvelope />&nbsp;<a href='mailto:chiragr2@illinois.edu'>&nbsp; chiragr2@illinois.edu</a>
-            </div>
-            <div>
-              <FaEnvelope />&nbsp;<a href='mailto:kwade@ucsd.edu'>&nbsp; kwade@ucsd.edu</a>
+              <FaEnvelope />&nbsp;<a href='mailto:momenteventsapp@gmail.com'>&nbsp; momenteventsapp@gmail.com</a>
             </div>
           </div>
         </div>
