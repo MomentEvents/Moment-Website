@@ -5,23 +5,16 @@
   align-items: center;
 }
 
+.logo-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .logo-text {
 
   justify-content: flex-start;
-  font-family: "Sen";
-  font-size: 40px;
-  font-weight: 700;
-  text-shadow: rgb(131, 23, 255) 0px 0 5px;
-  
   color: white;
-}
-
-.logo-O {
-  height: 40px;
-  font-weight: 700;
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-bottom: -6px;
 }
 
 .navbar {

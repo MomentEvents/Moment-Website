@@ -4,8 +4,7 @@ import { RiCloseLine } from "react-icons/ri";
 import { SiGotomeeting } from "react-icons/si";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import logo from "../../assets/momentlogo.svg";
-import logoO from "../../assets/cameraO.png";
+import logo from "../../assets/momentlogo.png";
 import discord from "../../assets/discordicon.svg";
 import "./Navbar.css";
 
@@ -33,8 +32,8 @@ const Navbar = () => {
     <nav class="navbar">
       <div class="navbar__container">
         <div className="logo">
-          <div className="logo-text">
-            <strong>M</strong> <img src={logoO} className="logo-O" alt="Logo" /> <strong>MENT</strong>
+          <div className="logo-container">
+            <img src={logo} className="logo-text" height="60" alt="Logo" />
           </div>
           {/* <img src={logo} className="logo-text" alt="Logo" /> */}
         </div>
