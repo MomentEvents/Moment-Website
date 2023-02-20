@@ -30,6 +30,7 @@ html body {
   align-items: center;
   justify-content: center;
   background: #271441;
+  
   /* background-size: cover; */
   /* background-size:1500px; */
   /* opacity: 0.2;
@@ -50,7 +51,7 @@ html body {
   bottom: 0px;
   left: 0px;
   background-image:url(./../../assets/momentbackground.png);
-  background-size: cover;
+  background-size:contain;
   opacity:0.08;
   background-color: #141B4199;
 }

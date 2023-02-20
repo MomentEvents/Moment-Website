@@ -81,8 +81,11 @@ h1 span:nth-child(3) {
 }
 
 .header-cta {
+  flex-direction: row;
+  flex: 1;
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
