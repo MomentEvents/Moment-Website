@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce521d8a.css",
-    "main.js": "/static/js/main.e89c5baa.js",
+    "main.js": "/static/js/main.aa5b79d1.js",
     "static/media/momentbackground.webp": "/static/media/momentbackground.9c8b12653263dd177aa4.webp",
     "static/media/mock-create-event.webp": "/static/media/mock-create-event.6638ac83a64f3deade24.webp",
     "static/media/mock-home-event-details.webp": "/static/media/mock-home-event-details.2312eeafe826459fecd6.webp",
@@ -16,10 +16,10 @@
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
     "main.ce521d8a.css.map": "/static/css/main.ce521d8a.css.map",
-    "main.e89c5baa.js.map": "/static/js/main.e89c5baa.js.map"
+    "main.aa5b79d1.js.map": "/static/js/main.aa5b79d1.js.map"
   },
   "entrypoints": [
     "static/css/main.ce521d8a.css",
-    "static/js/main.e89c5baa.js"
+    "static/js/main.aa5b79d1.js"
   ]
 }
