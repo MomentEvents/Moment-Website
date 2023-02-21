@@ -33,7 +33,7 @@ const Navbar = () => {
       <div class="navbar__container">
         <div className="logo">
           <div className="logo-container">
-            <img src={logo} className="logo-text" height="60" alt="Logo" />
+            <img src={logo} className="logo-text" height="40" alt="Logo" />
           </div>
           {/* <img src={logo} className="logo-text" alt="Logo" /> */}
         </div>
