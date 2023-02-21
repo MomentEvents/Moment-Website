@@ -24,17 +24,17 @@ const Demo = () => {
             <div className="demo-left" data-aos="fade-right">
                 <h1>Calendar</h1>
               <img src={joinedEvents} alt="Calendar" />
-              <h2>Have an organized calendar view of all the events you plan on attending.</h2>
+              <h2>Have an organized calendar of all the events you plan on attending.</h2>
             </div>
             <div className="demo-middle" data-aos="fade-up">
                 <h1>Search</h1>
                 <img src={searchEvents} alt="Search" />
-                <h2>Search for any upcoming event that is bound to happen.</h2>
+                <h2>Search for any upcoming event based on its title, description, location, and more.</h2>
             </div>
             <div className="demo-right" data-aos="fade-left">
                 <h1>Host</h1>
                 <img src={hostedEvents} alt="Tags" />
-                <h2>See all the events you are hosting, with a list of people who are joining your events.</h2>
+                <h2>View all of your hosted events, with a list of the amount of people who are joining.</h2>
             </div>
           </div>
         </div>

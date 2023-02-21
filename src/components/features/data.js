@@ -7,7 +7,7 @@ export const FeatureListTop = [
     id: 1,
     icon: <FaHome color="#FFFFFF" size={22} />,
     heading: "A central hub for all your school's events",
-    text: "Always know whenever something new happens with our intuitive home page design. No more digging around!",
+    text: "Always know whenever something new happens with a categorized front page design. No more digging around!",
   },
   // {
   //   id: 2,
