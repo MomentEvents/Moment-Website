@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cfe737c.css",
-    "main.js": "/static/js/main.e63796fe.js",
-    "static/media/cameraO.png": "/static/media/cameraO.c84d3c47ad7b22552269.png",
-    "static/media/EventScreen1and2.png": "/static/media/EventScreen1and2.e1298cf4faf1b5906302.png",
-    "static/media/momentbackground.png": "/static/media/momentbackground.9180afabded3d0afe495.png",
-    "static/media/PersonalCalendar.png": "/static/media/PersonalCalendar.82b3c8b6acc3a5448d7d.png",
+    "main.css": "/static/css/main.946da6be.css",
+    "main.js": "/static/js/main.b1f8f7dc.js",
+    "static/media/momentbackground.png": "/static/media/momentbackground.4be70f6c7a679bb79fe7.png",
+    "static/media/mock-hosted-events.png": "/static/media/mock-hosted-events.2d50d947e9afed04511a.png",
+    "static/media/mock-joined-events.png": "/static/media/mock-joined-events.6d56bf0b314df93e9255.png",
+    "static/media/mock-search-events.png": "/static/media/mock-search-events.38e37658ff806e62e37d.png",
+    "static/media/mock-home-event-details.png": "/static/media/mock-home-event-details.57da9681c267491ca671.png",
+    "static/media/mock-create-event.png": "/static/media/mock-create-event.6a016a7f90a92a1d07d4.png",
     "static/media/privacy.pdf": "/static/media/privacy.014b98f79873c1360c27.pdf",
-    "static/media/CreateEvent1and2.png": "/static/media/CreateEvent1and2.9f3ccb832d72fdd18333.png",
-    "static/media/momentlogo.svg": "/static/media/momentlogo.80f36e212a2327813be19dad769083ec.svg",
     "static/media/terms.pdf": "/static/media/terms.37b799c1a369e9dc9111.pdf",
-    "static/media/SearchEvent.png": "/static/media/SearchEvent.565be11850de7ae575b1.png",
-    "static/media/SelectTags.png": "/static/media/SelectTags.1e2da8de1ae863534216.png",
+    "static/media/momentlogo.png": "/static/media/momentlogo.ba02739be9203a201a09.png",
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
-    "main.0cfe737c.css.map": "/static/css/main.0cfe737c.css.map",
-    "main.e63796fe.js.map": "/static/js/main.e63796fe.js.map"
+    "main.946da6be.css.map": "/static/css/main.946da6be.css.map",
+    "main.b1f8f7dc.js.map": "/static/js/main.b1f8f7dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cfe737c.css",
-    "static/js/main.e63796fe.js"
+    "static/css/main.946da6be.css",
+    "static/js/main.b1f8f7dc.js"
   ]
 }
