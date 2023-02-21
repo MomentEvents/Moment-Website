@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.946da6be.css",
-    "main.js": "/static/js/main.b1f8f7dc.js",
-    "static/media/momentbackground.png": "/static/media/momentbackground.4be70f6c7a679bb79fe7.png",
+    "main.css": "/static/css/main.6c970794.css",
+    "main.js": "/static/js/main.e35bfad3.js",
+    "static/media/mock-create-event.png": "/static/media/mock-create-event.fb93b7549eac1ff0d545.png",
+    "static/media/mock-home-event-details.png": "/static/media/mock-home-event-details.38e1770af83e26f06bc2.png",
     "static/media/mock-hosted-events.png": "/static/media/mock-hosted-events.2d50d947e9afed04511a.png",
     "static/media/mock-joined-events.png": "/static/media/mock-joined-events.6d56bf0b314df93e9255.png",
     "static/media/mock-search-events.png": "/static/media/mock-search-events.38e37658ff806e62e37d.png",
-    "static/media/mock-home-event-details.png": "/static/media/mock-home-event-details.57da9681c267491ca671.png",
-    "static/media/mock-create-event.png": "/static/media/mock-create-event.6a016a7f90a92a1d07d4.png",
+    "static/media/momentbackground.png": "/static/media/momentbackground.9c8b12653263dd177aa4.png",
     "static/media/privacy.pdf": "/static/media/privacy.014b98f79873c1360c27.pdf",
     "static/media/terms.pdf": "/static/media/terms.37b799c1a369e9dc9111.pdf",
     "static/media/momentlogo.png": "/static/media/momentlogo.ba02739be9203a201a09.png",
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
-    "main.946da6be.css.map": "/static/css/main.946da6be.css.map",
-    "main.b1f8f7dc.js.map": "/static/js/main.b1f8f7dc.js.map"
+    "main.6c970794.css.map": "/static/css/main.6c970794.css.map",
+    "main.e35bfad3.js.map": "/static/js/main.e35bfad3.js.map"
   },
   "entrypoints": [
-    "static/css/main.946da6be.css",
-    "static/js/main.b1f8f7dc.js"
+    "static/css/main.6c970794.css",
+    "static/js/main.e35bfad3.js"
   ]
 }
