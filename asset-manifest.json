@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.ce521d8a.css",
-    "main.js": "/static/js/main.703fb8fa.js",
+    "main.js": "/static/js/main.e89c5baa.js",
     "static/media/momentbackground.webp": "/static/media/momentbackground.9c8b12653263dd177aa4.webp",
-    "static/media/mock-home-event-details.webp": "/static/media/mock-home-event-details.6638ac83a64f3deade24.webp",
-    "static/media/mock-create-event.webp": "/static/media/mock-create-event.2312eeafe826459fecd6.webp",
+    "static/media/mock-create-event.webp": "/static/media/mock-create-event.6638ac83a64f3deade24.webp",
+    "static/media/mock-home-event-details.webp": "/static/media/mock-home-event-details.2312eeafe826459fecd6.webp",
     "static/media/mock-search-events.webp": "/static/media/mock-search-events.911acd324285ed2a5dd3.webp",
     "static/media/mock-hosted-events.webp": "/static/media/mock-hosted-events.f9dee1bfc3085d3ef04f.webp",
     "static/media/mock-joined-events.webp": "/static/media/mock-joined-events.db8ade12f58eb3e08ede.webp",
@@ -16,10 +16,10 @@
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
     "main.ce521d8a.css.map": "/static/css/main.ce521d8a.css.map",
-    "main.703fb8fa.js.map": "/static/js/main.703fb8fa.js.map"
+    "main.e89c5baa.js.map": "/static/js/main.e89c5baa.js.map"
   },
   "entrypoints": [
     "static/css/main.ce521d8a.css",
-    "static/js/main.703fb8fa.js"
+    "static/js/main.e89c5baa.js"
   ]
 }
