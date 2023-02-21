@@ -7,7 +7,7 @@ export const FeatureListTop = [
     id: 1,
     icon: <FaHome color="#FFFFFF" size={22} />,
     heading: "A central hub for all your school's events",
-    text: "Always know whenever something new happens with a categorized front page design. No more digging around!",
+    text: "Always know whenever something new happens with our intuitive front page design. No more digging around!",
   },
   // {
   //   id: 2,
@@ -21,8 +21,8 @@ export const FeatureListBot = [
   {
     id: 3,
     icon: <MdConnectWithoutContact color="#FFFFFF" size={22} />,
-    heading: "Create events for anyone to everyone",
-    text: "Do you want to advertise a student org event? What about a casual lunch meetup? Anyone can create an event, whether big or small!",
+    heading: "Events for everyone",
+    text: "Want to advertise a student org event? A casual lunch meetup? Anyone can create an event, big or small!",
   }
   
 ];
