@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./Demo.css";
 
-import joinedEvents from "../../assets/mock-joined-events.png";
-import searchEvents from "../../assets/mock-search-events.png";
-import hostedEvents from "../../assets/mock-hosted-events.png";
+import joinedEvents from "../../assets/mock-joined-events.webp";
+import searchEvents from "../../assets/mock-search-events.webp";
+import hostedEvents from "../../assets/mock-hosted-events.webp";
 
 
 import AOS from "aos";

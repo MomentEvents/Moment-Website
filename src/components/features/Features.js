@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./Features.css";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
-import viewEvents from "../../assets/mock-home-event-details.png";
-import createEvents from "../../assets/mock-create-event.png";
+import viewEvents from "../../assets/mock-home-event-details.webp";
+import createEvents from "../../assets/mock-create-event.webp";
 
 import Feature from "./Feature";
 import { FeatureListTop, FeatureListBot } from "./data";

@@ -4,7 +4,7 @@ import { RiCloseLine } from "react-icons/ri";
 import { SiGotomeeting } from "react-icons/si";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import logo from "../../assets/momentlogo.png";
+import logo from "../../assets/momentlogo.webp";
 import discord from "../../assets/discordicon.svg";
 import "./Navbar.css";
 

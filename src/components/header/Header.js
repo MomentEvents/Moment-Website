@@ -4,8 +4,8 @@ import "./Header.css";
 import "../UI/Button/Button.css";
 // import { BsMouse } from "react-icons/bs";
 import AnimatedArrow from "../AnimatedArrow/AnimatedArrow";
-import iosdownload from "../../assets/iosdownload.png";
-import androiddownload from "../../assets/androiddownload.png";
+import iosdownload from "../../assets/iosdownload.webp";
+import androiddownload from "../../assets/androiddownload.webp";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
