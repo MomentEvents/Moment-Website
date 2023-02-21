@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.463bd677.css",
+    "main.css": "/static/css/main.c5769411.css",
     "main.js": "/static/js/main.5e7b2cc5.js",
-    "static/media/momentbackground.webp": "/static/media/momentbackground.7f3a091f67fb1a680709.webp",
+    "static/media/momentbackground.webp": "/static/media/momentbackground.21c0014b116235e8100d.webp",
     "static/media/mock-create-event.webp": "/static/media/mock-create-event.6638ac83a64f3deade24.webp",
     "static/media/mock-home-event-details.webp": "/static/media/mock-home-event-details.2312eeafe826459fecd6.webp",
     "static/media/mock-search-events.webp": "/static/media/mock-search-events.911acd324285ed2a5dd3.webp",
@@ -15,11 +15,11 @@
     "static/media/iosdownload.webp": "/static/media/iosdownload.54d92441b06f4c94e9cb.webp",
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
-    "main.463bd677.css.map": "/static/css/main.463bd677.css.map",
+    "main.c5769411.css.map": "/static/css/main.c5769411.css.map",
     "main.5e7b2cc5.js.map": "/static/js/main.5e7b2cc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.463bd677.css",
+    "static/css/main.c5769411.css",
     "static/js/main.5e7b2cc5.js"
   ]
 }
