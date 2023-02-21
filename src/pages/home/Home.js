@@ -12,6 +12,7 @@ function Home() {
   
   return (
     <>
+    
       <header className="navbar-bg">
         <Navbar />
       </header>

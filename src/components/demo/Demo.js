@@ -32,9 +32,9 @@ const Demo = () => {
                 <h2>Search for any upcoming event that is bound to happen.</h2>
             </div>
             <div className="demo-right" data-aos="fade-left">
-                <h1>Hosting</h1>
+                <h1>Host</h1>
                 <img src={selectTags} alt="Tags" />
-                <h2>See all the events you are hosting, with a list of people who plan on attending.</h2>
+                <h2>See all the events you are hosting, with a list of people who are joining your events.</h2>
             </div>
           </div>
         </div>
