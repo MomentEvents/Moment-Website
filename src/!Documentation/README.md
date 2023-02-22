@@ -5,4 +5,5 @@ This website is deployed using Netlify through Kyle Wade's Netlify account (whic
 # Common Questions
 
 Q: Why don't we just host the website using github pages directly instead of using Netlify?
+
 A: With github pages, we actually can't use react router because anything after `momentevents.app/` will cause github pages to try to find a file with that same name after the slash on the server. We want to only redirect routes locally and not try to find files remotely. Unfortunately, the only way for us to do this with github pages is to use a hashrouter, but that adds a `#` after our route, which isn't ideal. The workaround here is to just use Netlify with a `_redirects` file that makes sure all redirects are only to go through the react router and not to find files on the server, which is what we do now.
