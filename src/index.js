@@ -10,6 +10,7 @@ import NotFound from "./pages/404/NotFound";
 import IOSDownload from "./pages/ios download/IOSDownload";
 import AndroidDownload from "./pages/android download/AndroidDownload";
 import Contact from "./pages/contact/Contact";
+import Discord from "./pages/discord/Discord";
 // import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/terms",
     element: <TermsOfService/>,
+  },
+  {
+    path: "/discord",
+    element: <Discord/>,
   },
   {
     path: "/*",
