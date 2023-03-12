@@ -2,10 +2,10 @@ import React from 'react'
 import { useEffect } from 'react';
 
 export default function IOSDownload() {
-    // useEffect(() => {
-    //     window.location.assign('https://momentevents.app/404');
-    // }, [])
+    useEffect(() => {
+        window.location.assign('https://apps.apple.com/us/app/moment-events/id1671447709');
+    }, [])
   return (
-    <div>404</div>
+    <div>Loading...</div>
   )
 }
