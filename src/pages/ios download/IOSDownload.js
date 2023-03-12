@@ -6,6 +6,6 @@ export default function IOSDownload() {
         window.location.assign('https://apps.apple.com/us/app/moment-events/id1671447709');
     }, [])
   return (
-    <div>Loading...</div>
+    <div>Redirecting...</div>
   )
 }
