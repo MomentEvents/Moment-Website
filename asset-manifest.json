@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0b4610a5.css",
-    "main.js": "/static/js/main.9a0e379b.js",
+    "main.js": "/static/js/main.49f82d11.js",
     "static/media/mock-create-event.webp": "/static/media/mock-create-event.6638ac83a64f3deade24.webp",
     "static/media/mock-home-event-details.webp": "/static/media/mock-home-event-details.2312eeafe826459fecd6.webp",
     "static/media/mock-search-events.webp": "/static/media/mock-search-events.911acd324285ed2a5dd3.webp",
@@ -16,10 +16,10 @@
     "static/media/discordicon.svg": "/static/media/discordicon.e433ea8cda4e0e1e17e39a1b4ecc5012.svg",
     "index.html": "/index.html",
     "main.0b4610a5.css.map": "/static/css/main.0b4610a5.css.map",
-    "main.9a0e379b.js.map": "/static/js/main.9a0e379b.js.map"
+    "main.49f82d11.js.map": "/static/js/main.49f82d11.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4610a5.css",
-    "static/js/main.9a0e379b.js"
+    "static/js/main.49f82d11.js"
   ]
 }
