@@ -1,11 +1,9 @@
 import React from 'react'
 import { useEffect } from 'react';
+import RedirectWindow from '../../components/RedirectWindow/RedirectWindow.tsx';
 
 export default function Discord() {
-    useEffect(() => {
-        window.location.assign('https://discord.gg/dQZ64mGgbP');
-    }, [])
   return (
-    <div></div>
+    <RedirectWindow url={"https://discord.gg/dQZ64mGgbP"}/>
   )
 }
